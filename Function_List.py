@@ -1,6 +1,6 @@
 ''' Function List:
         mean_absolute_percentage_error (y_true, y_pred)
-        
+
         
         plotMovingAverage(series, window, 
                           plot_graph=False, plot_intervals=False, scale=1.96, plot_anomalies=False)
@@ -33,6 +33,7 @@ def plotMovingAverage(series, window,
 
     """
         series - dataframe with timeseries
+        
         window - rolling window size
         plot_graph - whether plot or not
         plot_intervals - show confidence intervals
