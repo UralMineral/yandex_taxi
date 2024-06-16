@@ -1,12 +1,14 @@
 ''' Function List:
         mean_absolute_percentage_error (y_true, y_pred)
         
+        
         plotMovingAverage(series, window, 
                           plot_graph=False, plot_intervals=False, scale=1.96, plot_anomalies=False)
                           
+
         plotModelResults(model, X_train, y_train, X_test, y_test, window, 
                          plot_graph=False, plot_intervals=False, plot_anomalies=False)
-                         
+
                          
         plotCoefficients(model, X_train)
         
