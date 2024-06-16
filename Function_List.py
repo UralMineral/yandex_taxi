@@ -7,6 +7,7 @@
         plotModelResults(model, X_train, y_train, X_test, y_test, window, 
                          plot_graph=False, plot_intervals=False, plot_anomalies=False)
                          
+                         
         plotCoefficients(model, X_train)
         
         window_choice(window, model, test_size, 
@@ -16,7 +17,7 @@
         
         window_choice_arr(window, model, test_size, 
                           plot_graph=False, add_features=False, show_lags=False)
-                          
+
                           
         error_estimator(models, fig_size)
         '''
